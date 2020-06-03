@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<style>
+  body{background-color: yellow;}
+  form{color: red;}
+</style>
+</head>
+
+<h1>Enter Your Details </h1>
+
+<form action="/action_page.php">
+  <label for="Name">Name:</label>
+  <input type="text" id="Name" name="Name"><br><br>
+  <label for="age">Age:</label>
+  <input type="number" id="age" name="age"><br><br>
+  <label for="Phone">Phone number:</label>
+  <input type="number" id="number" name="number"><br><br>
+  <label for="Address">Address:</label>
+  <input type="textbox" id="address" name="address"><br><br>
+  <label for="email id">Email id:</label>
+  <input type="email" id="email" name="email"><br><br>
+ <p>Please enter the Degree of your symptoms</p>
+ <input type="radio" id="high" name="high">
+ <label for="high">High</label>
+ <input type="radio" id="Medium" name="Medium">
+ <label for="Medium">Medium</label>
+ <input type="radio" id="Low" name="Low">
+ <label for="Low">Low</label><br><br>
+ <input type="submit" value="Submit">
+</form>
+
+<p>Click the "Submit" button and the form-data will be sent to a page on the 
+server called "action_page.php".</p>
+
+</body>
+</html>
+
